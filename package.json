@@ -1,0 +1,20 @@
+{
+  "name": "bozkir",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Bozkır — mobil koloni simülasyonu (Capacitor ile Android)",
+  "scripts": {
+    "android:hazirla": "npx cap add android && node scripts/android-patch.js && npx cap sync android",
+    "android:esitle": "node scripts/android-patch.js && npx cap sync android",
+    "android:ac": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/app": "^6.0.2",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/status-bar": "^6.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "appId": "com.bozkir.koloni",
+  "appName": "Bozkır",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#151b19",
+    "allowMixedContent": false
+  }
+}
